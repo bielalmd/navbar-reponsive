@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="/style.css">
+    
+    <title>Nav-bar-aside</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <img src="assets/img/perfil.jpg" alt="" class="header__img">
+
+            <a href="#" class="header__logo">Bielalmd.</a>
+ 
+            <div class="header__search">
+                <input type="search" placeholder="Search" class="header__input">
+                <i class='bx bx-search header__icon'></i>
+            </div>
+
+            <div class="header__toggle">
+                <i class='bx bx-menu' id="header-toggle"></i>
+            </div>
+        </div>
+    </header>
+
+    <!--========== NAV ==========-->
+    <div class="nav" id="navbar">
+        <nav class="nav__container">
+            <div>
+                <a href="#" class="nav__link nav__logo">
+                    <i class='bx bxs-disc nav__icon' ></i>
+                    <span class="nav__logo-name">BIELALMD.</span>
+                </a>
+
+                <div class="nav__list">
+                    <div class="nav__items">
+                        <h3 class="nav__subtitle">Perfil</h3>
+
+                        <a href="#" class="nav__link active">
+                            <i class='bx bx-home nav__icon' ></i>
+                            <span class="nav__name">Home</span>
+                        </a>
+                        
+                        <div class="nav__dropdown">
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-user nav__icon' ></i>
+                                <span class="nav__name">Usuario</span>
+                                <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                            </a>
+
+                            <div class="nav__dropdown-collapse">
+                                <div class="nav__dropdown-content">
+                                    <a href="#" class="nav__dropdown-item">Foto de Perfil</a>
+                                    <a href="#" class="nav__dropdown-item">Imagens</a>
+                                    <a href="#" class="nav__dropdown-item">Configurações</a>
+                                    <a href="#" class="nav__dropdown-item">Sair</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#" class="nav__link">
+                            <i class='nav__icon bx bx-history'></i>
+                            <span class="nav__name">Refresh</span>
+                        </a> 
+                    </div>
+
+                    <div class="nav__items">
+                        <h3 class="nav__subtitle">Menu</h3>
+
+                        <div class="nav__dropdown">
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-bell nav__icon' ></i>
+                                <span class="nav__name">Notificações</span>
+                                <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                            </a>
+
+                            <div class="nav__dropdown-collapse">
+                                <div class="nav__dropdown-content">
+                                    <a href="#" class="nav__dropdown-item">Bloqueadas</a>
+                                    <a href="#" class="nav__dropdown-item">Silenciadas</a>
+                                    <a href="#" class="nav__dropdown-item">Publicadas</a>
+                                    <a href="#" class="nav__dropdown-item">Programadas</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <a href="#" class="nav__link">
+                            <i class='bx bx-compass nav__icon' ></i>
+                            <span class="nav__name">Explore</span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <i class='bx bx-bookmark nav__icon' ></i>
+                            <span class="nav__name">Salvos</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://github.com/bielalmd" target="_blank" class="nav__link nav__logout">
+                <i class='bx bxl-github nav__icon'></i>
+                <span class="nav__name">Bielalmd</span>
+            </a>
+        </nav>
+    </div>
+
+    <!--========== CONTENTS ==========-->
+    <main >
+        
+        <div>
+            <h1>Lorem ipsum</h1>
+        </div>
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="">
+            <h4 class="colortxt ">Lorem</h4>
+            <p class="my-3 textp1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita accusantium nisi accusamus quibusdam neque, esse, ipsam, veniam temporibus incidunt qui sunt iusto. Dolore repellendus repellat quas, non accusantium corrupti doloribus!.</p>
+
+            <p class="textp2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias laboriosam delectus rem eligendi? Ipsa beatae, possimus hic, deserunt autem corporis dolorum fugiat odit illo qui veritatis expedita debitis, culpa vero dignissimos vel. Iste facilis voluptatem autem, beatae iusto officiis accusantium?</p>
+        </div>
+        
+        <div>
+            <h4>Lorem ipsum dolor sit.</h4>
+            <p class="textp2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias laboriosam delectus rem eligendi? Ipsa beatae, possimus hic, deserunt autem corporis dolorum fugiat odit illo qui veritatis expedita debitis, culpa vero dignissimos vel. Iste facilis voluptatem autem, beatae iusto officiis accusantium?</p>
+        </div>
+    </main>
+
+
+    <script src="/script.js"></script>
+</body>
+</html>
